@@ -4,7 +4,7 @@ import "./style.css";
 
 function TableData(props) {
       return (
-        <table className="tableEmployee ">
+        <table className="tableEmployee centered">
             <thead>
                 <tr>
                     <th></th>

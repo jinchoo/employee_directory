@@ -21,7 +21,10 @@ function SearchBox(props) {
                     </div>
                     <div className="col s6 ">
 
-                        <div className="col s6 inputAndButton right-align ">
+                        <div className="col s6 inputAndButton right-align " style={{
+                          margin: 'auto',
+                          width: '20%'
+                        }}>
 
                             <input
                                 onChange={props.handleInputChange}
@@ -35,7 +38,7 @@ function SearchBox(props) {
 
 
                         </div>
-                        <div className="col m4">
+                        {/* <div className="col m4">
 
 
                             <button
@@ -43,7 +46,7 @@ function SearchBox(props) {
                                 value=""
                                 className=" btn z-depth-2 waves-effect  searchBttn"
                                 onClick={props.handleSearch} >Search</button>
-                        </div>
+                        </div> */}
 
 
 

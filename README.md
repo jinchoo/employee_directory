@@ -33,7 +33,7 @@
 9.  npm packages
 10. Random User API
 
-![]()
+![](./employee_directory_screenshot.png)
 
 ## Respository
 - [Project Repo](https://jinchoo.github.io/employee_directory/.)
